@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+h1 {
+  text-align: center;
+  color: #333399;
+  margin-bottom: 1.5rem;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  border-color: #3399ff;
+  outline: none;
+}
+
+button {
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #287acc;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #222;
+}
+
+.explanation {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+/*Rumus Section */
+.rumus {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffcccc, #ffe5b4, #ffffcc, #ccffcc, #cce5ff);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+  color: #222;
+}
+
+.rumus h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.rumus code {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 4px;
+  font-family: 'Courier New', monospace;
+}
