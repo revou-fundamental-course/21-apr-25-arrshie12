@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+  background: linear-gradient(to bottom right, #67a4e1, #ec9999);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  background: #ffffff;
+  background: #ddcece;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -83,4 +83,12 @@ button:hover {
   display: inline-block;
   margin-top: 4px;
   font-family: 'Courier New', monospace;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  background: linear-gradient(135deg, #ffcccc, #ffe5b4, #ffffcc, #ccffcc, #cce5ff);
+  padding: 1rem;
+  border-radius: 8px;
 }
